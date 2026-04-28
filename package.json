@@ -1,9 +1,9 @@
 {
+   "homepage": "https://github.com/pipaliyameet44-bit/portfolio-website",
   "name": "portfolioweb",
   "version": "0.0.0",
   "private": true,
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "homepage": "https://github.com/pipaliyameet44-bit/portfolio-website#readme",
   "bugs": {
     "url": "https://github.com/pipaliyameet44-bit/portfolio-website/issues"
   },
