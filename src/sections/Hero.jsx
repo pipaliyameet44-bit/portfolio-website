@@ -75,14 +75,14 @@ const Hero = () => {
           <div className="relative w-72 h-72 md:w-[450px] md:h-[450px]">
             {/* Decorative background elements */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-primary/20 to-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
-            
+
             {/* Animated rings */}
-            <motion.div 
+            <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               className="absolute inset-0 border-2 border-dashed border-primary/30 rounded-full"
             ></motion.div>
-            
+
             {/* Main Image Container */}
             <motion.div
               animate={{ y: [0, -20, 0] }}
@@ -93,17 +93,16 @@ const Hero = () => {
                 <motion.img
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.4 }}
-                  src="meet.png"
+                  src="/portfolio-website/meet.png"
                   alt="Meet Pipaliya"
                   className="w-full h-full object-cover object-top"
                 />
-                
                 {/* Overlay gradient for depth */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
               </div>
 
               {/* Decorative "floating" card or badge */}
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1, duration: 0.5 }}

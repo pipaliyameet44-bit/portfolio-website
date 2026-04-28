@@ -47,21 +47,21 @@ const About = () => {
               >
                 {/* Decorative border offset */}
                 <div className="absolute inset-0 border-2 border-primary translate-x-4 translate-y-4 rounded-2xl group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
-                
+
                 {/* Image Container */}
                 <div className="relative w-full h-full bg-white dark:bg-gray-800 rounded-2xl border-2 border-gray-200 dark:border-gray-700 overflow-hidden z-10 shadow-2xl">
                   <motion.img
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.5 }}
-                    src="meet.png"
+                    src="/portfolio-website/meet.png"
                     alt="Meet Pipaliya"
                     className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"
                   />
-                  
+
                   {/* Subtle tint overlay */}
                   <div className="absolute inset-0 bg-primary/10 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none"></div>
                 </div>
-                
+
                 {/* Floating detail */}
                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg z-20">
                   M
